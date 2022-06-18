@@ -1,0 +1,27 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+  background-color:bisque;
+  margin: 10px auto;
+  font-size: 15px;
+}
+
+.profile img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.contact-info {
+  margin-left: 10px;
+  width: calc(100% - 150px);
+}
+
+.clear {
+  clear:both;
+}
